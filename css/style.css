@@ -1,0 +1,51 @@
+html,body{
+    font-family: 'Exo', sans-serif;
+    box-sizing: border-box;
+}
+
+a,a:active,a:focus,a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+/*login*/
+.container_login{
+    width: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.buttons{
+    width: 200px;
+}
+
+/*header*/
+.login{
+    color: #fff;
+}
+.card-custom {
+    max-width: 250px;
+}
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+/*profile*/
+.profile .image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.money:after{
+    content: ' $';
+}
+/*footer*/
+footer{
+    background-color: #343A40;
+    padding: 5px;
+}
+footer p{
+    margin: 0;
+    margin-left: 45%;
+}

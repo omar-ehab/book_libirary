@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Dokan Kotob | Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Dokan Kotob</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+            <div class="login"><a href="profile.html" class="mr-3">Profile</a></div>
+            <div class="login"><a href="login.html">Login/SignUp</a></div>
+        </div>
+    </div>
+</nav>
+
+<section class="profile">
+    <div class="container mt-5">
+        <div class="col-6 mb-3 image">
+            <img src="images/avatar.png" alt="avatar">
+        </div>
+        <div class="data">
+            <div class="col">
+                <h4>Email Address</h4>
+                <p>User1@gmail.com</p>
+            </div>
+            <div class="col-6">
+                <form action="" class="mb-5">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" class="form-control">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" class="form-control">
+                        <label for="mobile">Mobile</label>
+                        <input type="text" id="mobile" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <h2>Change Password</h2>
+                        <input type="password" class="form-control mb-2" placeholder="Old Password" required>
+                        <input type="password" class="form-control mb-2" placeholder="New Password" required>
+                        <input type="password" class="form-control mb-2" placeholder="Confirm Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Change Data</button>
+                </form>
+                <div class="mt-3">
+                    <h2>Balance: <span class="money">5200</span></h2>
+                </div>
+                <a href="addBalance.html"><button class="btn btn-success">Add Balance <i class="fas fa-credit-card"></i></button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="mt-5">
+    <p class="text-muted">&copy; Dokan Kotob 2017-2018</p>
+</footer>
+
+
+<script src="lib/jquery.js"></script>
+<script src="lib/popper.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+</body>
+</html>
